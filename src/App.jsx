@@ -39,6 +39,7 @@ const App = () => {
           className={`bx bx-menu ${menuOpen ? "open" : ""}`}
           id="menu-icon"
           onClick={toggleMenu}
+          
         >
           <BsList />
         </div>
@@ -103,9 +104,9 @@ const App = () => {
             <div className="box-img">
               <img src={foodImg} alt="Chicken Burger" />
             </div>
-            <h2>Chicken Burger</h2>
+            <h2>Stawberry cake </h2>
             <h3>Tasty Food</h3>
-            <span>$11.00</span>
+            <span>$15.00</span>
             <i className="bx bx-cart"></i>
           </div>
 
@@ -113,9 +114,9 @@ const App = () => {
             <div className="box-img">
               <img src={food2} alt="Special Veg Burger" />
             </div>
-            <h2>Special Veg Burger</h2>
+            <h2>chocolate cake</h2>
             <h3>Tasty Food</h3>
-            <span>$09.00</span>
+            <span>$50.00</span>
             <i className="bx bx-cart"></i>
           </div>
 
@@ -123,9 +124,9 @@ const App = () => {
             <div className="box-img">
               <img src={food3} alt="Chicken Fry Pack" />
             </div>
-            <h2>Chicken Fry Pack</h2>
+            <h2>Butterscotch Ckae</h2>
             <h3>Tasty Food</h3>
-            <span>$40.00</span>
+            <span>$30.00</span>
             <i className="bx bx-cart"></i>
           </div>
         </div>

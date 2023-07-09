@@ -2,24 +2,25 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Cairo', sans-serif;
   scroll-behavior: smooth;
   list-style: none;
   text-decoration: none;
 }
 
 :root {
-  --main-color: orangered;
-  --text-color: #fff;
-  --background-color: #1e1c1a;
+  --main-color: rgb(228, 50, 50);
+  --text-color: #000000;
+  --background-color: #ffffff;
   --big-font: 5rem;
   --h2-font: 2.25rem;
   --p-font: 0.9rem;
+  
 }
 
 *::selection {
   background: var(--main-color);
-  color: #fff;
+  color: #ff0000;
 }
 
 body {
@@ -39,10 +40,11 @@ header {
   justify-content: space-between;
   padding: 30px 170px;
   background-color: transparent;
+  background-color: #000000;
 }
 
 .logo {
-  color: var(--main-color);
+  color: white;
   font-weight: 600;
   font-size: 2.4rem;
 }
@@ -52,7 +54,7 @@ header {
 }
 
 .navbar a {
-  color: var(--text-color);
+  color: white;
   font-size: 1.1rem;
   padding: 10px 20px;
   font-weight: 500;
@@ -146,7 +148,7 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #ead1a8;
+  background: #e947bb;
   padding: 20px;
   border-radius: 0rem;
 }
@@ -175,7 +177,7 @@ section {
 
 .box span {
   font-size: var(--p-font);
-  color: var(--main-color);
+  color: black;
   font-weight: 600;
 }
 
@@ -212,7 +214,7 @@ section {
 .order-text h2 {
   font-size: var(--h2-font);
   margin: 1rem 0 2rem;
-  color: #98ff98;
+  color: #25da11;
 }
 
 .order-text p {
@@ -270,7 +272,7 @@ section {
 }
 
 .cta {
-  background-color: #ead1a8;
+  background-color: #0e95e4;
   padding: 70px 0;
   text-align: center;
   width: 66%;
